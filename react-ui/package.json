@@ -1,19 +1,55 @@
 {
-  "name": "react-ui",
+  "name": "invock",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "react-scripts": "^1.1.4"
-  },
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "axios": "^0.17.0",
+    "clevertap-react": "^1.0.0",
+    "history": "^4.7.2",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.19.4",
+    "mixpanel-browser": "^2.13.0",
+    "moment": "^2.19.3",
+    "prettier": "^1.9.2",
+    "react": "16.3.1",
+    "react-cookies": "^0.1.0",
+    "react-dom": "16.3.1",
+    "react-loadable": "^5.3.1",
+    "react-places-autocomplete": "^5.4.3",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "^1.1.1",
+    "react-scroll-to": "^1.1.2",
+    "redux": "^3.7.2",
+    "redux-persist": "^5.9.1",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^2.4.0",
+    "voucher-calculation": "^1.2.0"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   },
   "scripts": {
+    "precommit": "lint-staged",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rm build/static/js/*.map",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
-  "proxy": "http://localhost:5000"
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.0",
+    "@storybook/addon-links": "^3.4.0",
+    "@storybook/addons": "^3.4.0",
+    "@storybook/react": "^3.4.0",
+    "babel-core": "^6.26.0",
+    "babel-runtime": "^6.26.0"
+  }
 }

@@ -1,0 +1,14 @@
+<svg width="16" height="20" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>delete_icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(201 -256)">
+<g id="delete_icon">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-201 256)" fill="#868686"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 1.112 17.778C 1.11358 18.3668 1.3482 18.9311 1.76456 19.3474C 2.18092 19.7638 2.74518 19.9984 3.334 20L 12.222 20C 12.8108 19.9984 13.3751 19.7638 13.7914 19.3474C 14.2078 18.9311 14.4424 18.3668 14.444 17.778L 14.444 4.444L 1.112 4.444L 1.112 17.778ZM 15.556 1.112L 11.666 1.112L 10.556 0L 5 0L 3.89 1.112L -6.86646e-08 1.112L -6.86646e-08 3.334L 15.556 3.334L 15.556 1.112Z"/>
+</defs>
+</svg>

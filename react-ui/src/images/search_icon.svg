@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-3825.25 554.75 16.042 16.042">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.23;
+      }
+
+      .cls-2 {
+        fill: #868686;
+      }
+    </style>
+  </defs>
+  <g id="ic_search_" data-name="ic_search " class="cls-1" transform="translate(-3859.65 504.3)">
+    <path id="path" class="cls-2" d="M45.858,60.783h-.733l-.275-.275a5.738,5.738,0,0,0,1.467-3.85,5.958,5.958,0,1,0-5.958,5.958,5.738,5.738,0,0,0,3.85-1.467l.275.275v.733l4.583,4.583,1.375-1.375Zm-5.5,0a4.125,4.125,0,1,1,4.125-4.125A4.108,4.108,0,0,1,40.358,60.783Z" transform="translate(0 -0.25)"/>
+  </g>
+</svg>

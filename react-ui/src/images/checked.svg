@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3271.5 602.5 12 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bbbbbb;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="check_on_light" class="cls-1" d="M13.667,3H4.333A1.337,1.337,0,0,0,3,4.333v9.333A1.337,1.337,0,0,0,4.333,15h9.333A1.337,1.337,0,0,0,15,13.667V4.333A1.337,1.337,0,0,0,13.667,3Zm-6,9.333L4.333,9.128l.933-.9,2.4,2.308,5.067-4.872.933.9-6,5.769Z" transform="translate(3268.5 599.5)"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2087.33 113 22 12.874">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #868686;
+      }
+    </style>
+  </defs>
+  <g id="Group_94" data-name="Group 94" transform="translate(2087.33 113)">
+    <path id="Path_13" data-name="Path 13" class="cls-1" d="M44.926,45.841H27.734a2.288,2.288,0,0,0-2.4,2.146v8.582a2.288,2.288,0,0,0,2.4,2.145H44.926a2.288,2.288,0,0,0,2.4-2.145V47.987A2.289,2.289,0,0,0,44.926,45.841Zm1.695,10.728a1.583,1.583,0,0,1-1.695,1.436H27.734a1.584,1.584,0,0,1-1.695-1.436V47.987a1.584,1.584,0,0,1,1.695-1.437H44.926a1.584,1.584,0,0,1,1.695,1.437v8.582Z" transform="translate(-25.33 -45.841)"/>
+    <rect id="Rectangle_23" data-name="Rectangle 23" class="cls-1" width="8.143" height="0.709" transform="translate(2.561 3.906)"/>
+    <rect id="Rectangle_24" data-name="Rectangle 24" class="cls-1" width="8.143" height="0.709" transform="translate(2.561 6.141)"/>
+    <rect id="Rectangle_25" data-name="Rectangle 25" class="cls-1" width="4.648" height="0.709" transform="translate(14.22 8.318)"/>
+  </g>
+</svg>

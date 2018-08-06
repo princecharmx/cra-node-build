@@ -1,5 +1,45 @@
+@font-face {
+  font-family: "Dax Light";
+  src: url("./fonts/dax_light/dax_light.eot");
+  src: url("./fonts/dax_light/dax_light.eot") format("eot"),
+      url("./fonts/dax_light/dax_light.woff2") format("woff2"),
+      url("./fonts/dax_light/dax_light.woff") format("woff"),
+      url("./fonts/dax_light/dax_light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Dax Medium";
+  src: url('./fonts/dax_medium/dax_medium.eot');
+  src: url("./fonts/dax_medium/dax_medium.eot") format("eot"),
+      url("./fonts/dax_medium/dax_medium.woff2") format("woff2"),
+      url("./fonts/dax_medium/dax_medium.woff") format("woff"),
+      url("./fonts/dax_medium/dax_medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Dax Regular";
+  src: url("./fonts/dax_regular/dax_regular.eot");
+  src: url("./fonts/dax_regular/dax_regular.eot") format("eot"),
+      url("./fonts/dax_regular/dax_regular.woff2") format("woff2"),
+      url("./fonts/dax_regular/dax_regular.woff") format("woff"),
+      url("./fonts/dax_regular/dax_regular.ttf") format("truetype");
+}
+
+* {
+  font-family: 'Dax Regular';
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  text-decoration: none !important;
+  font-family: 'Dax Regular';
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
 }

@@ -1,58 +1,53 @@
+import mixpanel from 'mixpanel-browser';
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ClevertapReact from 'clevertap-react';
+import { Route, Switch } from 'react-router-dom';
+import { ConnectedRouter } from 'react-router-redux';
+import { connect } from 'react-redux';
+
+import { appInit } from './actions';
+
+import { asyncComponent } from './components';
+import { CLEVERTAP_ID, MIXPANEL_ID } from './constants';
+import { history } from './store';
+
+const AsyncLogin = asyncComponent(() => import('./pages/Login'));
+const AsyncHomePage = asyncComponent(() => import('./pages/Dashboard'));
+const AsyncViewVoucher = asyncComponent(() => import('./pages/ViewVoucher'));
+const AsyncCompaniesPage = asyncComponent(() => import('./pages/CompaniesDashboard'));
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      message: null,
-      fetching: true
-    };
+  constructor() {
+    super();
+    mixpanel.init(MIXPANEL_ID);
+    ClevertapReact.initialize(CLEVERTAP_ID);
   }
 
   componentDidMount() {
-    fetch('/api')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`status ${response.status}`);
-        }
-        return response.json();
-      })
-      .then(json => {
-        this.setState({
-          message: json.message,
-          fetching: false
-        });
-      }).catch(e => {
-        this.setState({
-          message: `API call failed: ${e}`,
-          fetching: false
-        });
-      })
+    this.props.appInit();
   }
 
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          {'This is '}
-          <a href="https://github.com/mars/heroku-cra-node">
-            {'create-react-app with a custom Node/Express server'}
-          </a><br/>
-        </p>
-        <p className="App-intro">
-          {this.state.fetching
-            ? 'Fetching message from API'
-            : this.state.message}
-        </p>
-      </div>
+      <ConnectedRouter history={history}>
+        <Switch>
+          <Route exact path="/" component={AsyncLogin} />
+          <Route exact path="/login" component={AsyncLogin} />
+          <Route exact path="/view/shared-voucher/:shareId" component={AsyncViewVoucher} />
+
+          <Route path="/companies" component={AsyncCompaniesPage} />
+
+          <Route exact path="/:id/home/:page" component={AsyncHomePage} />
+          {/* different routes for reports */}
+
+          {/* different routes for vouchers */}
+          <Route exact path="/:id/home/:page/:type" component={AsyncHomePage} />
+          <Route exact path="/:id/home/:page/:voucher/:type" component={AsyncHomePage} />
+          <Route exact path="/:id/home/:page/:voucher/:type/:voucherID" component={AsyncHomePage} />
+        </Switch>
+      </ConnectedRouter>
     );
   }
 }
 
-export default App;
+export default connect(() => ({}), { appInit })(App);

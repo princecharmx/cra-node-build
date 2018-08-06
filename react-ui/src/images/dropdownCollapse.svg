@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.414 24.415">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.35;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+        opacity: 0.54;
+      }
+    </style>
+  </defs>
+  <g id="Group_1297" data-name="Group 1297" class="cls-1" transform="matrix(-0.017, -1, 1, -0.017, -304.604, 197.765)">
+    <rect id="rectangle" class="cls-2" width="24" height="24" transform="translate(168 308)"/>
+    <path id="path" class="cls-3" d="M16.6,8.6,12,13.2,7.4,8.6,6,10l6,6,6-6Z" transform="translate(168 308)"/>
+    <g id="path-2" data-name="path">
+      <path id="path-3" data-name="path" class="cls-3" d="M16.6,8.6,12,13.2,7.4,8.6,6,10l6,6,6-6Z" transform="translate(168 308)"/>
+    </g>
+  </g>
+</svg>

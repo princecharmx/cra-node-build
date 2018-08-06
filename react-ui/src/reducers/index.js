@@ -1,0 +1,193 @@
+import {
+  items,
+  getTempItemData,
+  getItemsNames,
+  getItems,
+  getOnShowAddItems,
+  getShowItemGroup,
+  getSelectedItemGroup,
+  getAllItemGroups,
+  getItemPayloadDetails,
+  getShowItemSalesPrice,
+  getItemGroupSearchText,
+  getShowSalesPriceValue,
+  getAllBranches,
+  getItemError
+} from './items';
+import {
+  businessAccountsData,
+  contacts,
+  checkForName,
+  getNewContactAdded,
+  getAddContactToggleState,
+  updateContactName
+} from './contacts';
+
+import {
+  getSelectedVoucherDetails,
+  lastVisitedVoucher,
+  genrateCreditDebit,
+  getSavedVouchersSuccess,
+  vouchersUpdateState,
+  getbranchNamesArray,
+  getHideShippingDetails,
+  getVoucherDurationType,
+  voucherTypesUpdateState,
+  selectedVoucher,
+  getTempItems,
+  vouchers,
+  getShowTransportCard,
+  getVoucherByNumber,
+  getRoundOffValues,
+  getIssueDate,
+  getParty,
+  getSelectedAccountDetails,
+  getTransportDetails,
+  getselectedBusinessAccount,
+  getSearchText,
+  getSelectedPurchaseVoucher,
+  getopenAddDrawer,
+  getUnpaidVouchersList,
+  getvoucherDetailsAccounts,
+  getAccountsDetails,
+  getToogleBusinessCard,
+  getSummaryBlockData,
+  getStartDate,
+  genratePurchaseSalesPayload,
+  getTotalQty,
+  getShowCardForVoucherDetails,
+  getNarrationValue,
+  getTaxAnalysisData,
+  getotherChargesTaxBreakup,
+  getAccountsName,
+  getVoucherDetails,
+  getShippingAddress,
+  getbusinessAccountsSuggestions,
+  getSelectedSalesVoucher,
+  getlineAmountSum,
+  getVoucherType,
+  getShowLink,
+  getCurrentBalance
+} from './vouchers';
+
+import {
+  teamMembersData,
+  similarCompanyCheck,
+  registerCompanyData,
+  similarCompaniesData,
+  companies,
+  currentCompany
+} from './companies';
+
+import { user } from './user';
+import {
+  reports,
+  getDetailButtonStatus,
+  fetchTrailBalanceData,
+  getHeaderProperties,
+  getGroupDetails,
+  getDateRange,
+  getCompanyName,
+  getLedgerButtonStatus,
+  getLedgerWiseDetails,
+  getYearlyWiseDetails,
+  getMonthlyWiseDetails
+} from './reports';
+
+export const blacklist = ['vouchers', 'contacts', 'items', 'reports'];
+
+//named export selectors
+export {
+  getShowLink,
+  getbusinessAccountsSuggestions,
+  getSelectedVoucherDetails,
+  getSavedVouchersSuccess,
+  getShowCardForVoucherDetails,
+  getvoucherDetailsAccounts,
+  getUnpaidVouchersList,
+  getHideShippingDetails,
+  getselectedBusinessAccount,
+  getItemsNames,
+  getVoucherType,
+  getShowItemGroup,
+  getSelectedPurchaseVoucher,
+  getSelectedSalesVoucher,
+  getSelectedItemGroup,
+  getItemError,
+  getAllItemGroups,
+  getItemPayloadDetails,
+  getShowItemSalesPrice,
+  getItemGroupSearchText,
+  getShowSalesPriceValue,
+  getVoucherDetails,
+  getbranchNamesArray,
+  getItems,
+  getOnShowAddItems,
+  getShowTransportCard,
+  getTransportDetails,
+  getNewContactAdded,
+  getAddContactToggleState,
+  getAccountsDetails,
+  genrateCreditDebit,
+  getStartDate,
+  getIssueDate,
+  getParty,
+  getDetailButtonStatus,
+  fetchTrailBalanceData,
+  getHeaderProperties,
+  getLedgerButtonStatus,
+  getLedgerWiseDetails,
+  getYearlyWiseDetails,
+  getMonthlyWiseDetails,
+  getDateRange,
+  getCompanyName,
+  getGroupDetails,
+  getSelectedAccountDetails,
+  getVoucherByNumber,
+  getCurrentBalance,
+  getlineAmountSum,
+  getTempItems,
+  getNarrationValue,
+  getopenAddDrawer,
+  getSummaryBlockData,
+  getTotalQty,
+  getShippingAddress,
+  getToogleBusinessCard,
+  getSearchText,
+  getRoundOffValues,
+  getTaxAnalysisData,
+  getotherChargesTaxBreakup,
+  genratePurchaseSalesPayload,
+  getAllBranches
+};
+
+//export default reducers
+export default {
+  voucherTypesUpdateState,
+  getVoucherDurationType,
+  similarCompaniesData,
+  businessAccountsData,
+  vouchersUpdateState,
+  similarCompanyCheck,
+  registerCompanyData,
+  lastVisitedVoucher,
+  updateContactName,
+  getAccountsName,
+  getTempItemData,
+  teamMembersData,
+  selectedVoucher,
+  currentCompany,
+  checkForName,
+  items,
+  companies,
+  vouchers,
+  contacts,
+  user,
+  reports
+};
+
+//genral selectors
+export const getPath = ({ router: { location: { pathname } } }) => pathname;
+export const isEditMode = ({ router: { location: { pathname } } }) =>
+  pathname.split('/').includes('edit');
+export const getselectedVoucherId = ({ vouchers: { _selectedVoucherId } }) => _selectedVoucherId;

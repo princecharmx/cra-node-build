@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="12462 7871 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #868686;
+        opacity: 0.35;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="similar_company_add" transform="translate(11722 7820)">
+    <path id="teal_circle" data-name="teal circle" class="cls-1" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" transform="translate(740 51)"/>
+    <path id="ic_add_white" class="cls-2" d="M3432.727,984.987h-3.74v3.74h-1.247v-3.74H3424V983.74h3.74V980h1.247v3.74h3.74Z" transform="translate(-2676 -921.091)"/>
+  </g>
+</svg>

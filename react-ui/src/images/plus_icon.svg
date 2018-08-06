@@ -1,0 +1,22 @@
+<svg width="22" height="22" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>plus_icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(34 -173)">
+<g id="plus_icon">
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(-33 174)" fill="#868686"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="translate(-28.5556 184)" fill="#868686"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_stroke" transform="translate(-23 178.444)" fill="#868686"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 19.5 10C 19.5 15.2467 15.2467 19.5 10 19.5L 10 20.5C 15.799 20.5 20.5 15.799 20.5 10L 19.5 10ZM 10 19.5C 4.75329 19.5 0.5 15.2467 0.5 10L -0.5 10C -0.5 15.799 4.20101 20.5 10 20.5L 10 19.5ZM 0.5 10C 0.5 4.75329 4.75329 0.5 10 0.5L 10 -0.5C 4.20101 -0.5 -0.5 4.20101 -0.5 10L 0.5 10ZM 10 0.5C 15.2467 0.5 19.5 4.75329 19.5 10L 20.5 10C 20.5 4.20101 15.799 -0.5 10 -0.5L 10 0.5Z"/>
+<path id="path1_stroke" d="M 0 -0.5C -0.276142 -0.5 -0.5 -0.276142 -0.5 0C -0.5 0.276142 -0.276142 0.5 0 0.5L 0 -0.5ZM 11.1111 0.5C 11.3873 0.5 11.6111 0.276142 11.6111 0C 11.6111 -0.276142 11.3873 -0.5 11.1111 -0.5L 11.1111 0.5ZM 0 0.5L 11.1111 0.5L 11.1111 -0.5L 0 -0.5L 0 0.5Z"/>
+<path id="path2_stroke" d="M 0.5 0C 0.5 -0.276142 0.276142 -0.5 0 -0.5C -0.276142 -0.5 -0.5 -0.276142 -0.5 0L 0.5 0ZM -0.5 11.1111C -0.5 11.3873 -0.276142 11.6111 0 11.6111C 0.276142 11.6111 0.5 11.3873 0.5 11.1111L -0.5 11.1111ZM -0.5 0L -0.5 11.1111L 0.5 11.1111L 0.5 0L -0.5 0Z"/>
+</defs>
+</svg>

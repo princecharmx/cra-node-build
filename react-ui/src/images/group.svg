@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.301 20.751">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #428bca;
+        stroke: #428bca;
+        stroke-width: 0.3px;
+      }
+    </style>
+  </defs>
+  <g id="Group_1047" data-name="Group 1047" transform="translate(-794.416 -138.85)">
+    <g id="noun_1133685_cc" transform="translate(777 94.328)">
+      <path id="Path_121" data-name="Path 121" class="cls-1" d="M83.956,47.892V46.829A2.16,2.16,0,0,0,81.8,44.672H72.154a2.164,2.164,0,0,0-.418.041l-.015,0-.021,0A2.167,2.167,0,0,0,70,46.829V60.062a2.16,2.16,0,0,0,2.157,2.157h1.884v.746A2.16,2.16,0,0,0,76.2,65.123H85.84A2.16,2.16,0,0,0,88,62.965V52.41Zm-.083,1,2.95,3.3h-2.95Zm-9.834.845v11.76H72.154a1.433,1.433,0,0,1-1.432-1.432V46.829a1.437,1.437,0,0,1,1.13-1.4l.012,0,.009,0a1.441,1.441,0,0,1,.281-.028H81.8a1.433,1.433,0,0,1,1.432,1.432v.746H76.2A2.16,2.16,0,0,0,74.038,49.733ZM87.271,62.965A1.433,1.433,0,0,1,85.84,64.4H76.2a1.433,1.433,0,0,1-1.432-1.432V49.733A1.433,1.433,0,0,1,76.2,48.3h6.951v4.61h4.124V62.965Z" transform="translate(-52.431 0)"/>
+      <rect id="Rectangle_387" data-name="Rectangle 387" class="cls-1" width="8.596" height="0.726" transform="translate(24.4 60.226)"/>
+      <rect id="Rectangle_388" data-name="Rectangle 388" class="cls-1" width="0.726" height="3.548" transform="translate(24.805 54.849)"/>
+      <rect id="Rectangle_389" data-name="Rectangle 389" class="cls-1" width="0.726" height="2.096" transform="translate(27.139 56.301)"/>
+      <rect id="Rectangle_390" data-name="Rectangle 390" class="cls-1" width="0.726" height="3.064" transform="translate(29.522 55.333)"/>
+      <rect id="Rectangle_391" data-name="Rectangle 391" class="cls-1" width="0.726" height="4.032" transform="translate(31.856 54.365)"/>
+    </g>
+  </g>
+</svg>
